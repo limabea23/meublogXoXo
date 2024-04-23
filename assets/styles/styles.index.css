@@ -10,10 +10,33 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    background-color: rgb(240, 216, 235);
+    background-color: rgb(246, 195, 222);
 }
 
 header {
     display: flex;
     justify-content: space-around;
+    margin-top: 10px;
+    height: 111px;
+    background-color: rgb(208, 211, 213);
+    color: rgb(36, 36, 36);
+    align-items: center;
+}
+
+#logo-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+#links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+#links a {
+    text-decoration: none;
+    color:rgb(36, 36, 36);
+    font-size: 1.2rem;
 }
